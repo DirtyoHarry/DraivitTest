@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#2A2E43">
+
+    <android.support.design.widget.TabLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_alignParentBottom="true"
+            android:layout_marginBottom="470dp" app:tabIndicatorColor="#FFFFFF"
+
+            app:tabTextColor="#4D5479" app:tabSelectedTextColor="#FFFFFF" android:id="@+id/tabMenu">
+
+        <android.support.design.widget.TabItem
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Informazioni"/>
+
+        <android.support.design.widget.TabItem
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Feeback"/>
+
+        <android.support.design.widget.TabItem
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Impostazioni"/>
+    </android.support.design.widget.TabLayout>
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="213dp" tools:srcCompat="@tools:sample/avatars" android:id="@+id/imageView"
+            android:layout_marginBottom="518dp" android:layout_alignParentBottom="true"/>
+
+    <FrameLayout
+            android:id="@+id/fragment_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+    />
+
+
+</RelativeLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+            android:id="@+id/navigation_offer"
+            android:icon="@drawable/offericon"
+
+            android:title="Offri"
+    />
+
+    <item
+            android:id="@+id/navigation_find"
+            android:icon="@drawable/findicon"
+
+            android:title="Trova"
+            />
+
+    <item
+            android:id="@+id/navigation_ride"
+            android:icon="@drawable/rideicon"
+
+            android:title="I miei passaggi"
+    />
+    <item
+            android:id="@+id/navigation_msg"
+            android:icon="@drawable/msgicon"
+
+            android:title="Messaggi"
+    />
+    <item
+            android:id="@+id/navigation_profile"
+            android:icon="@drawable/profileicon"
+
+            android:title="Profilo"
+    />
+
+</menu>
